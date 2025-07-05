@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon: pig icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/pig.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/pig.png"
+    />
+    <link rel="shortcut icon" href="/assets/img/pig.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hide Buy Me a Coffee widget temporarily -->
+    <style>
+      [class*="bmc"] {
+        display: none !important;
+      }
+      iframe[src*="buymeacoffee.com"] {
+        display: none !important;
+      }
+    </style>
+    <title>Liar Bar</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Buy Me a Coffee Widget -->
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="essaalfan"
+      data-description="Support Liar Bar!"
+      data-message=""
+      data-color="#FF5F5F"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
